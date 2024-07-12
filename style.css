@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+} 
+.navbar{
+    display: flex;
+    background-color: #131A22;
+    height: 48x;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.location-2{
+    display: flex;
+    font-size: 1rem;
+}
+.loc-1{
+    font-size: 0.75rem;
+    margin-left: 14px;
+    color: #cccccc;
+}
+.loc-2{
+    margin-left: 3.5px;
+    color: #ffffff;
+}
+.logo{
+    margin: 2px;
+}
+.searchbar{
+    height: 50px;
+    width: 900px; 
+    display: flex;
+  
+    justify-content: space-evenly;
+    align-items: center;
+}
+.alls{
+    display: flex;
+    color: black;
+    height: 38px;
+    width: 55px;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.magny{
+    background-color: rgb(255, 149, 0);
+    width: 45px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search2{
+    width: 800px;
+    height: 38px;
+    color: rgb(27, 25, 25);
+    padding: 7px 10px 10px 5px;
+    font-size: medium;
+}
+.account{
+    height: 50px;
+    width: 131px;
+}
+.hello{
+    font-size: 0.75rem;
+    align-self: center;
+    position: relative;
+    top: 6px;
+}
+.account p{
+    align-self: center;
+    font-size: 0.85rem;
+    font-weight: 700;
+    position: relative;
+    top: 7px;
+}
+.Returns{
+    font-size: 0.75rem;
+}
+.rando p{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.cart p{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    position: relative;
+    left: 2.5px;
+    top: 10px;
+}
+.cart{
+    display: flex;
+}
+
+.cart i{
+    font-size: 1.75rem;
+}
+.nav2bar{
+    
+    height: 38px;
+    background-color:  	#232f3e;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    margin-left: 15px;
+    font-weight: 500;
+}
+.info{
+    width: 85%;
+    display: flex;
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: 500;
+  
+}
+.info p{
+    margin-left: 15px;
+}
+.coolmain{
+    background-image: url(bg\ img.jpg);
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.mainline{
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.line{
+    display: flex;
+    width: 95vw;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-weight: 700;
+}
+.line p{
+    color: black;
+    font-size: 0.85rem;
+}
+.line a{
+    color: #007185;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.pinkbg{
+    background-color: #D4A3D2;
+    height: 1500px;
+}
+.products{
+    display: flex;
+    width: 95vw;
+    height: 917px;
+    margin: 25px 39px ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.prod{
+    width: 344.5px;
+    height: 415px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.prod h2{
+    color: black;
+    margin-left: 20px;
+    font-size: larger;
+    font-weight: 700;
+}
+.prod p{
+    color: #007185;
+    margin-left: 20px;
+    font-size: small;
+    font-weight: 500;
+}
+.shop_img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bttop{
+    color: #DDD;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: 700;
+    background-color: #232f3e;
+}
+.footfather{
+    background-color: #232F3E;
+}
+.footcontent{
+    height: 400px;
+    display: flex;
+    background-color: #232F3E;
+    justify-content: space-evenly;
+    margin-left: 170px;
+    margin-right: 170px;
+    border-bottom: 0.5px solid #DDD;
+}
+.fcone{
+    margin-top: 60px;
+}
+.fctwo{
+    margin-top: 60px;
+}
+.fcthree{
+    margin-top: 60px;
+}
+.fcfour{
+    margin-top: 60px;
+}
+.footcontent p{
+    font-size: medium;
+    font-weight: 700;
+}
+.footcontent ul{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #DDD;
+}
